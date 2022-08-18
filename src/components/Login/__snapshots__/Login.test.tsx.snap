@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot tests for login page Should show a message when the user does not provide username 1`] = `
+<form>
+  <div>
+    <p>
+      Nome de usuário deve ser informado
+    </p>
+  </div>
+  <div>
+    <label
+      htmlFor="username"
+    >
+      Usuário
+    </label>
+    <input
+      id="username"
+      name="username"
+      placeholder="Please, inform the username"
+      type="text"
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="password"
+    >
+      Senha
+    </label>
+    <input
+      id="password"
+      name="password"
+      placeholder="******"
+      type="password"
+    />
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    Entrar
+  </button>
+</form>
+`;
+
+exports[`Snapshot tests for login page Should show the form only 1`] = `
+<form>
+  <div>
+    <label
+      htmlFor="username"
+    >
+      Usuário
+    </label>
+    <input
+      id="username"
+      name="username"
+      placeholder="Please, inform the username"
+      type="text"
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="password"
+    >
+      Senha
+    </label>
+    <input
+      id="password"
+      name="password"
+      placeholder="******"
+      type="password"
+    />
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    Entrar
+  </button>
+</form>
+`;
