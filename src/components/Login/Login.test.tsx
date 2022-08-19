@@ -5,27 +5,23 @@ import { Login } from "./index";
 describe("Snapshot tests for login page", () => {
     it("Should show the form only", () => {
 
-        const component = renderer.create(
-            <Login />
-        )
+        // Plan
 
-        let tree = component.toJSON();
-        expect(tree).toMatchSnapshot();
+        // Act
+
+        // Check
 
     })
 
     it("Should show a message when the user does not provide username", () => {
 
-        const component = renderer.create(
-            <Login />
-        )       
+        // Plan
 
-        renderer.act(() => {
-            component.root.findByType('button').props.onClick()
-        })
+        // Act
 
-        let tree = component.toJSON();
-        expect(tree).toMatchSnapshot();
+        // Check
 
     })
+
+    // ...
 })
